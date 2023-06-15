@@ -24,4 +24,4 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v0.1.15
         with:
-          name: ${github.GITHUB_REF}
+          name: ${{github.GITHUB_REF}}
